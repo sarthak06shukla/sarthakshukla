@@ -2,6 +2,43 @@ const siteBaseUrl = import.meta.env.BASE_URL;
 
 export const projects = [
   {
+    id: 'opd-claim-adjudication-platform',
+    title: 'AI-Powered OPD Claim Adjudication Platform',
+    category: 'AI / ML',
+    year: '2026',
+    status: 'Featured project',
+    gradient: 'from-slate-800 via-slate-950 to-cyan-400/24',
+    summary:
+      'AI-powered insurance platform that automates OPD claim processing with OCR, fraud checks, and explainable policy decisions.',
+    description:
+      'An AI-powered OPD claim adjudication platform that automates insurance claim processing using OCR, intelligent document extraction, fraud detection, and rule-based policy validation.',
+    outcome:
+      'Built an end-to-end workflow for claim submission, document processing, policy evaluation, fraud analysis, manual review management, dashboards, confidence scoring, and audit-ready decision trails.',
+    highlights: [
+      'Automated OCR-based extraction of patient, doctor, diagnosis, treatment, and billing data',
+      'Built a rule-based adjudication engine for approved, rejected, partial approval, and manual review outcomes',
+      'Added fraud detection for duplicate claims, suspicious patterns, and claim frequency analysis',
+      'Generated explainable approval decisions with confidence scores and rule evaluation logs',
+      'Created admin dashboards for claim monitoring, review queues, and operational analytics',
+      'Implemented secure authentication, role-based access, and scalable backend architecture',
+    ],
+    techStack: [
+      'Next.js',
+      'TypeScript',
+      'FastAPI',
+      'Python',
+      'PostgreSQL',
+      'OpenAI',
+      'OCR',
+      'Tailwind CSS',
+      'Docker',
+      'JWT Authentication',
+    ],
+    github: null,
+    live: 'https://plum-assignment-sand.vercel.app/login',
+    featured: true,
+  },
+  {
     id: 'nse-internal-portal',
     title: 'NSE Self-Service Internal Portal',
     category: 'Internal Tools',
