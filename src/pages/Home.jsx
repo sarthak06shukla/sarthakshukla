@@ -1,5 +1,14 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, ArrowUpRight, Code2, Download, GraduationCap, Mail, MapPin } from 'lucide-react';
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Code2,
+  Download,
+  FileText,
+  GraduationCap,
+  Mail,
+  MapPin,
+} from 'lucide-react';
 import Container from '../components/Container';
 import GlassCard from '../components/GlassCard';
 import GradientButton from '../components/GradientButton';
@@ -140,6 +149,17 @@ export default function Home() {
                 <span className="relative z-10 flex items-center gap-2">
                   Download CV
                   <Download size={18} />
+                </span>
+              </a>
+              <a
+                href={resumeFile}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button-secondary"
+              >
+                <span className="relative z-10 flex items-center gap-2">
+                  View Resume
+                  <FileText size={18} />
                 </span>
               </a>
               <GradientButton to="/projects" variant="secondary">
