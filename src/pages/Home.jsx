@@ -147,7 +147,7 @@ export default function Home() {
                 className="button-primary"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  Download CV
+                  Download Resume
                   <Download size={18} />
                 </span>
               </a>
